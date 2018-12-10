@@ -9,7 +9,8 @@ import me.jordancole.easynetworking.net.packets.DisconnectHandler;
 import me.jordancole.easynetworking.net.packets.PacketHandler;
 import me.jordancole.easynetworking.net.server.Server;
 import me.jordancole.easynetworking.net.server.ServerConnection;
-Server s = new Server(8222);s.addPacketHandler(new PacketHandler(){
+Server s = new Server(8222);
+s.addPacketHandler(new PacketHandler(){
 
 	@Override
 	public void handleServerPacket(int id, String[] data, ServerConnection connection) {
