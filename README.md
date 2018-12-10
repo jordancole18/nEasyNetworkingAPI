@@ -42,8 +42,8 @@ dependencies {
 }
 ```
 
-## Usage
-# Server
+# Usage
+## Server
 ```java
 import me.jordancole.easynetworking.net.packets.DisconnectHandler;
 import me.jordancole.easynetworking.net.packets.PacketHandler;
@@ -85,7 +85,7 @@ s.addClientDisconnectHandler(new DisconnectHandler() {
 }
 ```
 
-# Client
+## Client
 ```java
 
 Client c = new Client("localhost", 8222);
