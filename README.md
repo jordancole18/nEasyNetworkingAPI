@@ -11,19 +11,19 @@ import me.jordancole.easynetworking.net.server.Server;
 import me.jordancole.easynetworking.net.server.ServerConnection;
 Server s = new Server(8222);s.addPacketHandler(new PacketHandler(){
 
-@Override
-public void handleServerPacket(int id, String[] data, ServerConnection connection) {
-	System.out.println("SERVER HANDLE PACKET");
-	System.out.println("PACKET TYPE: " + id);
-	System.out.println("PACKET DATA:");
-	int num = 0;
-	for (String s : data) {
-		System.out.println("INDEX " + num + " - " + s);
-		num++;
+	@Override
+	public void handleServerPacket(int id, String[] data, ServerConnection connection) {
+		System.out.println("SERVER HANDLE PACKET");
+		System.out.println("PACKET TYPE: " + id);
+		System.out.println("PACKET DATA:");
+		int num = 0;
+		for (String s : data) {
+			System.out.println("INDEX " + num + " - " + s);
+			num++;
+		}
 	}
-}
 
-@Override
+	@Override
 	public void handleClientPacket(int id, String[] data, Client client) {
 
 	}
