@@ -31,7 +31,6 @@ Find the latest release here https://github.com/jordancole18/nEasyNetworkingAPI/
 ```gradle
 allprojects {
 	repositories {
-	
 		maven { url 'https://jitpack.io' }
 	}
 }
