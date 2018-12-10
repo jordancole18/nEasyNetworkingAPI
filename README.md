@@ -2,7 +2,7 @@
 
 This API allows basic Server and Client connections via the TCP and UDP protocols in Java.
 
-##Client Usage
+## Usage
 
 ```java
 import me.jordancole.easynetworking.net.packets.DisconnectHandler;
