@@ -2,7 +2,7 @@
 
 This API allows basic Server and Client connections via the TCP and UDP protocols in Java.
 
-# JavaDoc
+# JavaDocs
 
 View the JavaDocs for this project at https://jordancole18.github.io/
 
