@@ -6,8 +6,6 @@ This API allows basic Server and Client connections via the TCP and UDP protocol
 
 View the JavaDocs for this project at https://jordancole18.github.io/
 
-# Download
-
 # Latest Release
 
 Find the latest release here https://github.com/jordancole18/nEasyNetworkingAPI/releases
