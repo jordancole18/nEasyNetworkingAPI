@@ -30,7 +30,7 @@ s.addPacketHandler(new PacketHandler(){
 
 	@Override
 	public void handleClientPacket(int id, String[] data, Client client) {
-
+		//this is never ran if added to the server.
 	}
 
 });
@@ -70,7 +70,7 @@ c.addPacketHandler(new PacketHandler() {
 
 	@Override
 	public void handleServerPacket(int id, String[] data, ServerConnection connection) {
-
+		//this is never ran if added to the Client.
 	}
 });
 c.addClientDisconnectHandler(new DisconnectHandler() {
