@@ -70,8 +70,6 @@ public class Server {
 			e.printStackTrace();
 		}
 		new Thread(new Runnable() {
-
-			@Override
 			public void run() {
 				while (running) {
 					byte[] data = new byte[1024];
@@ -119,7 +117,7 @@ public class Server {
 	 * 
 	 */
 	public void startTCP() {
-		Server s = this;
+		final Server s = this;
 		Thread t = new Thread(new Runnable() {
 			public void run() {
 				try {

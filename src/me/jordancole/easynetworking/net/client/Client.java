@@ -87,7 +87,6 @@ public class Client {
 	 */
 	private void startUDP() {
 		new Thread(new Runnable() {
-			@Override
 			public void run() {
 				while (running) {
 					byte[] data = new byte[1024];
@@ -118,7 +117,6 @@ public class Client {
 		}
 		new Thread(new Runnable() {
 
-			@Override
 			public void run() {
 				try {
 					// init the connection
