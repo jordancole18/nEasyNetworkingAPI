@@ -11,12 +11,18 @@ View the JavaDocs for this project at https://jordancole18.github.io/
 Find the latest release here https://github.com/jordancole18/nEasyNetworkingAPI/releases
 
 # Usage
-## Server
+
 ```java
+import me.jordancole.easynetworking.net.client.Client;
 import me.jordancole.easynetworking.net.packets.DisconnectHandler;
 import me.jordancole.easynetworking.net.packets.PacketHandler;
 import me.jordancole.easynetworking.net.server.Server;
 import me.jordancole.easynetworking.net.server.ServerConnection;
+```
+
+## Server
+
+```java
 Server s = new Server(8222);
 s.addPacketHandler(new PacketHandler(){
 
