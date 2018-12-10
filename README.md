@@ -10,38 +10,6 @@ View the JavaDocs for this project at https://jordancole18.github.io/
 
 Find the latest release here https://github.com/jordancole18/nEasyNetworkingAPI/releases
 
-# Maven
-
-```maven
-<repository>
-	<id>jitpack.io</id>
-	<url>https://jitpack.io</url>
-</repository>
-```
-```maven
-<dependency>
-	<groupId>com.github.jordancole18</groupId>
-	<artifactId>nEasyNetworkingAPI</artifactId>
-	<version>Tag</version>
-</dependency>
-```
-
-# Gradle
-
-```gradle
-allprojects {
-	repositories {
-		maven { url 'https://jitpack.io' }
-	}
-}
-```
-
-```gradle
-dependencies {
-	implementation 'com.github.jordancole18:nEasyNetworkingAPI:Tag'
-}
-```
-
 # Usage
 ## Server
 ```java
